@@ -1,0 +1,57 @@
+.progress-bar {
+    /*background-color: #1a1a1a;*/
+    height: 15px;
+    padding: 5px;
+    width: 500px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px gray inset, 0 1px 0 gray;
+}
+
+.progress-bar > .bar {
+    display: inline-block;
+    /*float: left;*/
+    height: 100%;
+    background-color: #007cba;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;
+}
+
+.badge{
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-success{
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.wsm_remove{
+    float:right;
+}
+.progress-text {
+    text-align: left;
+}
